@@ -44,6 +44,18 @@ ul {
   margin: 0 32px;
 }
 
+.main-left {
+  width: 15%;
+}
+
+.main-middle {
+  width: 70%;
+}
+
+.main-right {
+  width: 15%;
+}
+
 .about {
   padding: 16px;
 }
@@ -64,4 +76,18 @@ ul {
 
 .archives a {
   margin-top: 2px;
+}
+
+.main-middle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: 45%;
+  margin-left: 32px;
+}
+
+.article img {
+  width: 100%;
 }
