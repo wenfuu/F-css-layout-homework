@@ -126,3 +126,14 @@ ul {
   border-radius: 4px;
   margin-top: 4px;
 }
+
+.footer {
+  background-color: whitesmoke;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 32px;
+  color: gray;
+}
