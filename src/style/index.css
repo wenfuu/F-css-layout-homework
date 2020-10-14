@@ -32,3 +32,36 @@ ul {
   display: flex;
   justify-content: space-evenly;
 }
+
+.main {
+  display: flex;
+  margin: 32px 0;
+}
+
+.main-left,
+.main-middle,
+.main-right {
+  margin: 0 32px;
+}
+
+.about {
+  padding: 16px;
+}
+
+.about-headline {
+  font-style: italic;
+}
+
+.archives {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.archives-headline {
+  font-style: italic;
+}
+
+.archives a {
+  margin-top: 2px;
+}
