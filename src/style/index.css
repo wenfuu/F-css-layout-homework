@@ -18,3 +18,17 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background-color: black;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.navBar {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
